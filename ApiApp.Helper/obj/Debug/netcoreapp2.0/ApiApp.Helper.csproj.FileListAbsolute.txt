@@ -5,10 +5,10 @@ D:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp.Helper\bin\Debug\netcoreap
 D:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp.Helper\bin\Debug\netcoreapp2.0\System.IdentityModel.Tokens.Jwt.dll
 D:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp.Helper\bin\Debug\netcoreapp2.0\Microsoft.IdentityModel.Tokens.xml
 D:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp.Helper\bin\Debug\netcoreapp2.0\System.IdentityModel.Tokens.Jwt.xml
-D:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp.Helper\obj\Debug\netcoreapp2.0\ApiApp.Helper.csprojResolveAssemblyReference.cache
 D:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp.Helper\obj\Debug\netcoreapp2.0\ApiApp.Helper.csproj.CoreCompileInputs.cache
 D:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp.Helper\obj\Debug\netcoreapp2.0\ApiApp.Helper.AssemblyInfoInputs.cache
 D:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp.Helper\obj\Debug\netcoreapp2.0\ApiApp.Helper.AssemblyInfo.cs
 D:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp.Helper\obj\Debug\netcoreapp2.0\ApiApp.Helper.csproj.CopyComplete
 D:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp.Helper\obj\Debug\netcoreapp2.0\ApiApp.Helper.dll
 D:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp.Helper\obj\Debug\netcoreapp2.0\ApiApp.Helper.pdb
+D:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp.Helper\obj\Debug\netcoreapp2.0\ApiApp.Helper.csprojAssemblyReference.cache

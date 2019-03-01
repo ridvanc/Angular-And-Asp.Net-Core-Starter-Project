@@ -23,6 +23,11 @@ export const routes: Routes = [
         path: 'dashboard',
         loadChildren: './views/dashboard/dashboard.module#DashBoardModule',
         canActivate: [AuthGard]
+      },
+      {
+        path: 'products',
+        loadChildren: './views/product/product.module#ProductModule',
+        canActivate: [AuthGard]
       }
     ]
   },

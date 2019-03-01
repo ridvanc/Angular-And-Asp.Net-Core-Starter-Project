@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "e:\\apps\\Angular-6-Asp.Net-Core-Starter-Project\\ApiApp.Helper\\ApiApp.Helper.csproj",
+  "TargetFramework": "netcoreapp2.0",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}

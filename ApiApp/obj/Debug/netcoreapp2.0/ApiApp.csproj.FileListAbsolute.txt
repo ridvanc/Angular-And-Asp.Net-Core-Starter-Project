@@ -12,3 +12,17 @@ D:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp\bin\Debug\netcoreapp2.0\Ap
 D:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp\bin\Debug\netcoreapp2.0\ApiApp.Helper.pdb
 D:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp\obj\Debug\netcoreapp2.0\ApiApp.csproj.CopyComplete
 D:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp\obj\Debug\netcoreapp2.0\ApiApp.csprojAssemblyReference.cache
+E:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp\bin\Debug\netcoreapp2.0\ApiApp.deps.json
+E:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp\bin\Debug\netcoreapp2.0\ApiApp.runtimeconfig.json
+E:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp\bin\Debug\netcoreapp2.0\ApiApp.runtimeconfig.dev.json
+E:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp\bin\Debug\netcoreapp2.0\ApiApp.dll
+E:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp\bin\Debug\netcoreapp2.0\ApiApp.pdb
+E:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp\bin\Debug\netcoreapp2.0\ApiApp.Helper.dll
+E:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp\bin\Debug\netcoreapp2.0\ApiApp.Helper.pdb
+E:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp\obj\Debug\netcoreapp2.0\ApiApp.csprojAssemblyReference.cache
+E:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp\obj\Debug\netcoreapp2.0\ApiApp.csproj.CoreCompileInputs.cache
+E:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp\obj\Debug\netcoreapp2.0\ApiApp.AssemblyInfoInputs.cache
+E:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp\obj\Debug\netcoreapp2.0\ApiApp.AssemblyInfo.cs
+E:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp\obj\Debug\netcoreapp2.0\ApiApp.csproj.CopyComplete
+E:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp\obj\Debug\netcoreapp2.0\ApiApp.dll
+E:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp\obj\Debug\netcoreapp2.0\ApiApp.pdb

@@ -12,3 +12,17 @@ D:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp.Helper\obj\Debug\netcoreap
 D:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp.Helper\obj\Debug\netcoreapp2.0\ApiApp.Helper.dll
 D:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp.Helper\obj\Debug\netcoreapp2.0\ApiApp.Helper.pdb
 D:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp.Helper\obj\Debug\netcoreapp2.0\ApiApp.Helper.csprojAssemblyReference.cache
+E:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp.Helper\bin\Debug\netcoreapp2.0\ApiApp.Helper.deps.json
+E:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp.Helper\bin\Debug\netcoreapp2.0\ApiApp.Helper.dll
+E:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp.Helper\bin\Debug\netcoreapp2.0\ApiApp.Helper.pdb
+E:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp.Helper\bin\Debug\netcoreapp2.0\Microsoft.IdentityModel.Tokens.dll
+E:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp.Helper\bin\Debug\netcoreapp2.0\System.IdentityModel.Tokens.Jwt.dll
+E:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp.Helper\bin\Debug\netcoreapp2.0\Microsoft.IdentityModel.Tokens.xml
+E:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp.Helper\bin\Debug\netcoreapp2.0\System.IdentityModel.Tokens.Jwt.xml
+E:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp.Helper\obj\Debug\netcoreapp2.0\ApiApp.Helper.csprojAssemblyReference.cache
+E:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp.Helper\obj\Debug\netcoreapp2.0\ApiApp.Helper.csproj.CoreCompileInputs.cache
+E:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp.Helper\obj\Debug\netcoreapp2.0\ApiApp.Helper.AssemblyInfoInputs.cache
+E:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp.Helper\obj\Debug\netcoreapp2.0\ApiApp.Helper.AssemblyInfo.cs
+E:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp.Helper\obj\Debug\netcoreapp2.0\ApiApp.Helper.csproj.CopyComplete
+E:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp.Helper\obj\Debug\netcoreapp2.0\ApiApp.Helper.dll
+E:\apps\Angular-6-Asp.Net-Core-Starter-Project\ApiApp.Helper\obj\Debug\netcoreapp2.0\ApiApp.Helper.pdb

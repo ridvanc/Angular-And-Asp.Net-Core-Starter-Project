@@ -1,9 +1,7 @@
-import { Http, RequestOptions, Headers } from '@angular/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { tokenNotExpired, JwtHelper } from 'angular2-jwt';
-import 'rxjs/add/operator/map';
-import 'rxjs/add/operator/catch';
-import 'rxjs/add/observable/throw';
+import { catchError, retry } from 'rxjs/operators';
 import { Defaults } from '../defaults';
 import { handleError } from '../common/app-error';
 
@@ -13,7 +11,7 @@ import { handleError } from '../common/app-error';
 export class AuthService {
   currentUser: any;
 
-  constructor(private http: Http) {
+  constructor(private http: HttpClient) {
     const token = localStorage.getItem('token');
     if (token) {
       const jwt = new JwtHelper();
@@ -21,23 +19,13 @@ export class AuthService {
     }
   }
 
-  login(credentials) {
-    const headers = new Headers({ 'Content-Type': 'application/json' });
-    const options = new RequestOptions({ headers: headers });
-
+  login(credentials: any) {
+    const headers = new HttpHeaders({ 'Content-Type': 'application/json' });
+    const options = { headers: headers };
     return this.http.post(Defaults.apiUrl + 'token', JSON.stringify(credentials), options)
-      .map(response => {
-        const result = response.json();
-        if (result && result.value) {
-          localStorage.setItem('token', result.value);
-
-          const jwt = new JwtHelper();
-          this.currentUser = jwt.decodeToken(localStorage.getItem('token'));
-          return true;
-        } else {
-          return false;
-        }
-      }).catch(handleError);
+    .pipe(
+      catchError(handleError)
+    );
   }
 
   logout() {

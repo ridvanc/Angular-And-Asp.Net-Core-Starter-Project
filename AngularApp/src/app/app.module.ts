@@ -35,7 +35,6 @@ import { AppRoutingModule } from './app.routing';
 // Import 3rd party components
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { TabsModule } from 'ngx-bootstrap/tabs';
-import { ChartsModule } from 'ng2-charts/ng2-charts';
 import { SharedModule } from './shared/shared.module';
 import { AppErrorHandler } from './common/app-error';
 import { AuthHttp, AuthConfig } from 'angular2-jwt';
@@ -43,6 +42,7 @@ import { AuthService } from './services/auth.service';
 import { LoginAuth } from './services/auths/LoginAuth';
 import { Http, HttpModule } from '@angular/http';
 import { AuthGard } from './services/auth-gard.service';
+import { HttpClientModule } from '@angular/common/http';
 export function getAuthHttp(http) {
   return new AuthHttp(new AuthConfig({
     tokenName: 'token'
@@ -52,7 +52,7 @@ export function getAuthHttp(http) {
   imports: [
     BrowserModule,
     SharedModule,
-    HttpModule,
+    HttpClientModule,
     AppRoutingModule,
     AppAsideModule,
     AppBreadcrumbModule.forRoot(),
@@ -61,8 +61,7 @@ export function getAuthHttp(http) {
     AppSidebarModule,
     PerfectScrollbarModule,
     BsDropdownModule.forRoot(),
-    TabsModule.forRoot(),
-    ChartsModule
+    TabsModule.forRoot()
   ],
   declarations: [
     AppComponent,

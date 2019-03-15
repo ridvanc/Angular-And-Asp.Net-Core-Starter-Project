@@ -4,8 +4,9 @@ import { Subscription } from 'rxjs/Subscription';
 import { AppError, UnAuthorizedError } from '../../../common/app-error';
 import { BsModalService } from 'ngx-bootstrap';
 import { AlertModalComponent } from '../../../partials/alert-modal/alert-modal.component';
-import { BaseServiceResponse } from '../../../common/models';
+import { BaseServiceResponse, LoginResponse } from '../../../common/models';
 import { AuthService } from '../../../services/auth.service';
+import { JwtHelper } from 'angular2-jwt';
 
 @Component({
   selector: 'app-login',
@@ -21,8 +22,16 @@ export class LoginComponent {
 
   signIn(credentials) {
     this.loader = this.authService.login(credentials)
-      .subscribe(result => {
-        if (result) {
+      .subscribe((response: LoginResponse) => {
+        let canLogin = false;
+        if (response && response.value) {
+          localStorage.setItem('token', response.value);
+
+          const jwt = new JwtHelper();
+          this.authService.currentUser = jwt.decodeToken(localStorage.getItem('token'));
+          canLogin = true;
+        }
+        if (canLogin) {
           this.router.navigate(['/dashboard']);
         } else {
           this.invalidLogin = true;

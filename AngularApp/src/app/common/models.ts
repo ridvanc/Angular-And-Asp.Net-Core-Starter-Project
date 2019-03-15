@@ -6,3 +6,7 @@ export class BaseServiceResponse {
         this.errors = new Array<any>();
     }
 }
+export class LoginResponse {
+    validTo: Date;
+    value: string;
+}

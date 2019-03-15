@@ -10,6 +10,6 @@ export class LoginResponse {
     validTo: Date;
     value: string;
     constructor() {
-
+        this.value = '';
     }
 }

@@ -9,4 +9,7 @@ export class BaseServiceResponse {
 export class LoginResponse {
     validTo: Date;
     value: string;
+    constructor() {
+
+    }
 }

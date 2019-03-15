@@ -3,7 +3,6 @@ import { NgModule, ErrorHandler } from '@angular/core';
 import { LocationStrategy, PathLocationStrategy } from '@angular/common';
 
 import { PerfectScrollbarModule } from 'ngx-perfect-scrollbar';
-import { PERFECT_SCROLLBAR_CONFIG } from 'ngx-perfect-scrollbar';
 import { PerfectScrollbarConfigInterface } from 'ngx-perfect-scrollbar';
 
 const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
@@ -42,7 +41,8 @@ import { AuthService } from './services/auth.service';
 import { LoginAuth } from './services/auths/LoginAuth';
 import { Http, HttpModule } from '@angular/http';
 import { AuthGard } from './services/auth-gard.service';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
+import { AuthHttpInteceptor } from './common/AuthHttpInteceptor';
 export function getAuthHttp(http) {
   return new AuthHttp(new AuthConfig({
     tokenName: 'token'
@@ -74,14 +74,13 @@ export function getAuthHttp(http) {
     AuthService,
     AuthGard,
     LoginAuth,
-    AuthHttp,
   {
     provide: ErrorHandler, useClass: AppErrorHandler
   },
   {
-    provide: AuthHttp,
-    useFactory: getAuthHttp,
-    deps: [Http]
+    provide: HTTP_INTERCEPTORS,
+    useClass: AuthHttpInteceptor,
+    multi: true
   }],
   bootstrap: [AppComponent]
 })

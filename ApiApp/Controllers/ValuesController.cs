@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -12,17 +13,15 @@ namespace ApiApp.Controllers
     public class ValuesController : Controller
     {
         // GET api/values
-        [HttpGet]
-        public IEnumerable<string> Get()
+        [HttpGet("{count}")]
+        public IEnumerable<string> Get(int count)
         {
-            return new string[] { "value1", "value2" };
-        }
-
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public string Get(int id)
-        {
-            return "value";
+            var values = new List<string>();
+            for (int i = 0; i < count; i++)
+            {
+                values.Add($"value {i}");
+            }
+            return values;
         }
 
         // POST api/values

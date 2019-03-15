@@ -13550,11 +13550,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\apps\\Angular-6-Asp.Net-Core-Starter-Project\\ApiApp\\ApiApp.csproj",
+      "projectUniqueName": "E:\\Apps\\angular\\Angular-And-Asp.Net-Core-Starter-Project\\ApiApp\\ApiApp.csproj",
       "projectName": "ApiApp",
-      "projectPath": "E:\\apps\\Angular-6-Asp.Net-Core-Starter-Project\\ApiApp\\ApiApp.csproj",
+      "projectPath": "E:\\Apps\\angular\\Angular-And-Asp.Net-Core-Starter-Project\\ApiApp\\ApiApp.csproj",
       "packagesPath": "C:\\Users\\RidvanCetin\\.nuget\\packages\\",
-      "outputPath": "E:\\apps\\Angular-6-Asp.Net-Core-Starter-Project\\ApiApp\\obj\\",
+      "outputPath": "E:\\Apps\\angular\\Angular-And-Asp.Net-Core-Starter-Project\\ApiApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13573,8 +13573,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "E:\\apps\\Angular-6-Asp.Net-Core-Starter-Project\\ApiApp.Helper\\ApiApp.Helper.csproj": {
-              "projectPath": "E:\\apps\\Angular-6-Asp.Net-Core-Starter-Project\\ApiApp.Helper\\ApiApp.Helper.csproj"
+            "E:\\Apps\\angular\\Angular-And-Asp.Net-Core-Starter-Project\\ApiApp.Helper\\ApiApp.Helper.csproj": {
+              "projectPath": "E:\\Apps\\angular\\Angular-And-Asp.Net-Core-Starter-Project\\ApiApp.Helper\\ApiApp.Helper.csproj"
             }
           }
         }

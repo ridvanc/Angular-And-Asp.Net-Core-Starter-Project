@@ -4,10 +4,12 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { ButtonsModule } from 'ngx-bootstrap/buttons';
 import { ProductRoutingModule } from './product-routing.module';
 import { ProductComponent } from './product.component';
+import { CommonModule } from '@angular/common';
 
 
 @NgModule({
   imports: [
+    CommonModule,
     FormsModule,
     ProductRoutingModule,
     BsDropdownModule,

@@ -24,9 +24,10 @@ export class LoginComponent {
     this.loader = this.authService.login(credentials)
       .subscribe((response: LoginResponse) => {
         let canLogin = false;
-        if (response && response.value) {
-          localStorage.setItem('token', response.value);
 
+        if (response && response.value) {
+          
+          localStorage.setItem('token', response.value);
           const jwt = new JwtHelper();
           this.authService.currentUser = jwt.decodeToken(localStorage.getItem('token'));
           canLogin = true;

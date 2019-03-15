@@ -12,7 +12,7 @@ export class AuthGard implements CanActivate {
         if (this.authService.isLoggedIn()) {
             return true;
         }
-
+        localStorage.setItem('token', '');
         this.router.navigate(['/login']);
         return false;
     }

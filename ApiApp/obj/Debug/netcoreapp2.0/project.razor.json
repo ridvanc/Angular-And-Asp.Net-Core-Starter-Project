@@ -1,14 +1,6 @@
 {
-  "ProjectFilePath": "e:\\apps\\Angular-6-Asp.Net-Core-Starter-Project\\ApiApp\\ApiApp.csproj",
+  "ProjectFilePath": "e:\\Apps\\angular\\Angular-And-Asp.Net-Core-Starter-Project\\ApiApp\\ApiApp.csproj",
   "TargetFramework": "netcoreapp2.0",
   "TagHelpers": [],
-  "Configuration": {
-    "ConfigurationName": "MVC-2.0",
-    "LanguageVersion": "2.0",
-    "Extensions": [
-      {
-        "ExtensionName": "MVC-2.0"
-      }
-    ]
-  }
+  "Configuration": null
 }

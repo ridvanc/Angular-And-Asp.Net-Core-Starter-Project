@@ -10,22 +10,19 @@ import { handleError } from '../common/app-error';
 })
 export class AuthService {
   currentUser: any;
-
   constructor(private http: HttpClient) {
     const token = localStorage.getItem('token');
-    if (token) {
+    if (token !== null && token !== '') {
       const jwt = new JwtHelper();
       this.currentUser = jwt.decodeToken(token);
     }
   }
 
   login(credentials: any) {
-    const headers = new HttpHeaders({ 'Content-Type': 'application/json' });
-    const options = { headers: headers };
-    return this.http.post(Defaults.apiUrl + 'token', JSON.stringify(credentials), options)
-    .pipe(
-      catchError(handleError)
-    );
+    return this.http.post(Defaults.apiUrl + 'token', JSON.stringify(credentials))
+      .pipe(
+        catchError(handleError)
+      );
   }
 
   logout() {
@@ -35,6 +32,10 @@ export class AuthService {
   }
 
   isLoggedIn() {
-    return tokenNotExpired('token');
+    const token = localStorage.getItem('token');
+    if (token !== null && token !== '') {
+      return tokenNotExpired('token');
+    }
+    return false;
   }
 }

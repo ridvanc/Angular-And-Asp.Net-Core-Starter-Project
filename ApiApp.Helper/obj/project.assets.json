@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\apps\\Angular-6-Asp.Net-Core-Starter-Project\\ApiApp.Helper\\ApiApp.Helper.csproj",
+      "projectUniqueName": "E:\\Apps\\angular\\Angular-And-Asp.Net-Core-Starter-Project\\ApiApp.Helper\\ApiApp.Helper.csproj",
       "projectName": "ApiApp.Helper",
-      "projectPath": "E:\\apps\\Angular-6-Asp.Net-Core-Starter-Project\\ApiApp.Helper\\ApiApp.Helper.csproj",
+      "projectPath": "E:\\Apps\\angular\\Angular-And-Asp.Net-Core-Starter-Project\\ApiApp.Helper\\ApiApp.Helper.csproj",
       "packagesPath": "C:\\Users\\RidvanCetin\\.nuget\\packages\\",
-      "outputPath": "E:\\apps\\Angular-6-Asp.Net-Core-Starter-Project\\ApiApp.Helper\\obj\\",
+      "outputPath": "E:\\Apps\\angular\\Angular-And-Asp.Net-Core-Starter-Project\\ApiApp.Helper\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
